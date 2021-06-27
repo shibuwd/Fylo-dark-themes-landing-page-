@@ -579,12 +579,9 @@ li {
      }
      .feature-img img {
          max-width: 820px;
-         margin-right: 2rem;
-         padding: 2rem;
      }
      .feature-info {
          width: 600px;
-         padding: 2rem;
      }
 }
 
