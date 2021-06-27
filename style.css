@@ -23,19 +23,16 @@
     margin: 0;
     padding: 0;
 }
-
 body {
    font-family: 'Open Sans', sans-serif;
    font-size: .875rem;
    font-size: 400;
    background-color: var(--dark-blue-main-background);
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 h1,
 h2,
 h3,
@@ -61,8 +58,6 @@ li {
 }
 .container {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-direction: column;
 }
 .cta {
@@ -99,7 +94,6 @@ li {
     align-items: center;
     justify-content: center;
     gap: 1rem;   
-    /* margin: 0 auto; */
 }
 .nav-links a {
     color: var(--white); 
@@ -552,7 +546,6 @@ li {
         padding: 0 5rem;
     }
 }
-
 
 /* end media query */
 
