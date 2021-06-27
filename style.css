@@ -28,6 +28,7 @@ body {
    font-size: .875rem;
    font-size: 400;
    background-color: var(--dark-blue-main-background);
+   -webkit-font-smoothing: antialiased;
 }
 img {
     max-width: 100%;
