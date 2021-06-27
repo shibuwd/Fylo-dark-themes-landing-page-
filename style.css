@@ -80,7 +80,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     width: 100%;
     height: 60px;
     background-color: hsl(217, 27%, 15%);
@@ -267,7 +267,7 @@ li {
 /* floting-container section*/
 .floting-card {
     background-color: var(--dark-blue-intro-and-email-sign-up-background);
-    padding: 1rem 1.2rem;
+    padding: 1rem 1.5rem;
     width: 90%;
     margin: 0 auto;  
     position: relative;
@@ -481,7 +481,7 @@ li {
         justify-content: center;
         flex-direction: row;
         gap: 1.8rem;
-        margin-bottom: 8rem;
+        margin-bottom: 12rem;
         padding: 0 2.5rem;    
     }
     .testimonial {
@@ -559,6 +559,29 @@ li {
             width: 500px;
             padding: 2rem;
         }
+}
+@media only screen and (min-width: 1366px) {
+     .header h1 {
+         padding: 1rem 25rem;
+     }
+     .header p {
+         padding: 1rem 28rem;
+     }
+     .card-container .card p {
+         padding: 0 2rem;
+     }
+     .feature-info h3 {
+         padding-right: 18rem;
+     }
+     .card-container .card p {
+         padding: 0 8rem;
+     }
+     .feature-img img {
+         max-width: 7800px;
+     }
+     .feature-info {
+         width: 580px;
+     }
 }
 
 @media only screen and (min-width: 1440px) {
