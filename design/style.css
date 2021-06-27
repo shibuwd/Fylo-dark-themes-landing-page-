@@ -460,19 +460,20 @@ li {
     .feature-card {
         display: flex;
         flex-direction: row;
+        gap: 2rem;
     }
     .feature-info h3 {
         text-align: left;
         margin-top: 2.2rem;
-        padding-right: 9rem;
+        padding-right: 12rem;
     }
     .feature-img img {
-        max-width: 500px;
+        max-width: 650px;
         margin-right: 2rem;
         padding: 2rem;
     }
     .feature-info {
-        width: 400px;
+        width: 500px;
         padding: 2rem;
     }
     .testimonials {
@@ -545,47 +546,6 @@ li {
         text-align: center;
         padding: 0 5rem;
     }
-        .feature-info h3 {
-            text-align: left;
-            margin-top: 2.2rem;
-            padding-right: 12rem;
-        }
-        .feature-img img {
-            max-width: 720px;
-            margin-right: 2rem;
-            padding: 2rem;
-        }
-        .feature-info {
-            width: 500px;
-            padding: 2rem;
-        }
-}
-
-@media only screen and (min-width: 1440px) {
-     .header h1 {
-         padding: 1rem 23rem;
-     }
-     .header p {
-         padding: 1rem 30rem;
-     }
-     .card-container .card p {
-         padding: 0 5rem;
-     }
-     .feature-info h3 {
-         padding-right: 18rem;
-     }
-     .card-container .card p {
-         padding: 0 8rem;
-     }
-     .feature-img img {
-         max-width: 820px;
-         margin-right: 2rem;
-         padding: 2rem;
-     }
-     .feature-info {
-         width: 600px;
-         padding: 2rem;
-     }
 }
 
 /* end media query */
