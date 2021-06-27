@@ -432,11 +432,15 @@ li {
 }
 
 @media only screen and (min-width: 950px) {
+    .header .hero-img {
+        transform: scale(1.5);
+        padding: 5rem 0;
+    }
     .header::after {
-        height: 500px;
+        height: 800px;
         background-color: hsl(217, 27%, 15%);
         background-image: url("img/bg-curvy-desktop.svg");
-        background-size: 99% 48%;
+        background-size: 99% 38%;
     }
     .header h1 {
         padding: 1rem 12rem;
